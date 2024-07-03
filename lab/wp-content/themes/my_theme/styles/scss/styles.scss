@@ -1,0 +1,39 @@
+@import "global.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "pages/persona.css";
+
+.foto-proyecto {
+    width: 50%;
+}
+
+.card {
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    //background-color: rgba(238, 90, 238, 0.4);
+    background: linear-gradient(black, purple);
+    border-radius: 2%;
+}
+
+.li .card{
+    text-decoration: none;
+}
+
+.wp-post-image {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.mt-3{
+    margin-top: 3%;
+}
+
+.h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6{
+    color: white;
+}
+
+.p {
+    color: #ffffff;
+}

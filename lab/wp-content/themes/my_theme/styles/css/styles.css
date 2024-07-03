@@ -1,0 +1,44 @@
+@import url(global.css);
+@import url(layout/header.css);
+@import url(pages/persona.css);
+.foto-proyecto {
+  width: 50%; }
+
+.card {
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background: linear-gradient(black, purple);
+  border-radius: 2%; }
+
+.li .card {
+  text-decoration: none; }
+
+.wp-post-image {
+  width: 30%;
+  margin-top: 10%; }
+
+.mt-3 {
+  margin-top: 3%; }
+
+body h1, body .entry-content h1,
+body h2, body .entry-content h2,
+body h3, body .entry-content h3,
+body h4, body .entry-content h4,
+body h5, body .entry-content h5,
+body h6, body .entry-content h6 {
+  color: white; }
+
+body p {
+  color: #ffffff; 
+}
+
+.site-below-footer-wrap[data-section="section-below-footer-builder"] {
+  background-color: rgba(179, 59, 197);
+}
+
+a:where(:not(.wp-element-button)) {
+    text-decoration: none;
+    color: white;
+}
